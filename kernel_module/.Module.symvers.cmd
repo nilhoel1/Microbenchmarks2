@@ -1,0 +1,1 @@
+cmd_/home/bossow/benchmark/kernel_module/Module.symvers := sed 's/\.ko$$/\.o/' /home/bossow/benchmark/kernel_module/modules.order | scripts/mod/modpost -m -a  -o /home/bossow/benchmark/kernel_module/Module.symvers -e -i Module.symvers    -T -
